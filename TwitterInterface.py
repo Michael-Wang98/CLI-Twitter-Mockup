@@ -97,8 +97,8 @@ def result(raw):
 #################################################
 
 # database credentials
-username = 'root'
-password = 'Kumonon@1'
+username = ''
+password = ''
 hostname = 'localhost'
 database = 'twitter'
 
