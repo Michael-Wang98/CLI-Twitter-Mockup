@@ -1,6 +1,6 @@
 # CLI-Twitter-Mockup
 
-This Python project allows a user to query and interface with a SQL database using a Python Command Line Interface. This project contains a SQL script which generates a SQL database constructed using real Twitter data including several thousand tweets and user profiles which can be interacted with using this project.
+This Python project allows a user to query and interface with a SQL database using a Python Command Line Interface. This project contains a SQL script which generates a SQL database constructed using real Twitter data including several thousand tweets sourced from a public database at: https://www.kaggle.com/crowdflower/twitter-airline-sentiment and user profiles sourced from: https://data.world/data-society/twitter-user-data which can be interacted with using this project.
 
 ## Installation
 
