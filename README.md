@@ -4,9 +4,7 @@ This Python project allows a user to query and interface with a SQL database usi
 
 ## Installation
 
-Start a MySQL instance and edit TwitterInterface.py by inputting your credentials on lines 100-101  
-
-In order to run the code one needs to import sqlalchemy, pymysql and cryptography installing any modules that the interpreter does not recognize. They also need a MYSQL instance with a username and password to use to connect to the database with all necessary permissions enabled. The database itself has to be ready for use by running the SQL script that instantiates a database named twitterDB. The hostname also needs to be known for the connection to work. The program will request a username to represent who is signing onto the social media platform. Any username from within the users database is valid (e.g. 2v (this also happens to be one of the shortest and easier to type names)). For more detailed explanation of the code please consult the code and the comments in the code.  
+Clone the directory. Edit TwitterInterface.py by inputting your MySQL database credentials on lines 100-101. Start a MySQL instance and run the tweets.sql script to generate the database. Run the TwitterInterface.py program in order to connect to and interact with the database. The program will request a username to represent who is signing onto the social media platform. Any username from within the users database is valid (e.g. 2v). For a more detailed explanation please examine the comments in the code.  
 
 ## How to use
 
